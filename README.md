@@ -4,23 +4,8 @@ The aim of this guide is setup of [Ansible](https://www.ansible.com/) training e
 
 Why I decided to use Docker instead of conventional virtualization like [VirtualBox](https://www.virtualbox.org/)? Docker containers consume much less resources so you can build bigger test environments on your laptop. Docker container is way faster to start/kill than standard virtual machine which is important when you experiment and bring the whole environment up and down. I used [Docker Compose](https://docs.docker.com/compose/overview/) to automate setup of lab environment (there is no need to maintain each container separately).
 
-This guide **is not** Ansible or Docker tutorial (although I explain some basic concepts). It's purpose is solely setup of lab environment to enable experiments with ansible on local machine.
 
 **IMPORTANT**: In order to follow this tutorial you need to install Docker CE (Community Edition) on your machine. The installation is well documented at https://docs.docker.com/engine/installation/#supported-platforms and I will not cover it here.
-
-A brief description of Ansible and Docker:
-
-## Ansible
-
-Ansible is IT automation system. It handles configuration-management, application deployment, cloud provisioning, ad-hoc task-execution, and multinode orchestration - including trivializing things like zero downtime rolling updates with load balancers.
-
-You can read more at [www.ansible.com](https://www.ansible.com/)
-
-## Docker
-
-Docker is the world’s leading software container platform. Developers use Docker to eliminate "works on my machine" problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux, Windows Server, and Linux-on-mainframe apps. 
-
-You can read more at [www.docker.com](https://www.docker.com/)
 
 # Quick start
 
